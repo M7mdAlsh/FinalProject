@@ -1,0 +1,89 @@
+body {
+  background: rgb(40, 66, 176);
+  background: linear-gradient(
+    6deg,
+    rgba(40, 66, 176, 1) 0%,
+    rgba(81, 102, 182, 1) 26%,
+    rgba(20, 43, 134, 1) 60%,
+    rgba(6, 12, 34, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.nvbar {
+  height: 70px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.home:hover {
+  margin-left: 15px;
+  color: url(023e8a);
+}
+
+.news {
+  margin-left: 0px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+  color: rgb(255, 255, 255);
+}
+
+.news:hover {
+  color: url(023e8a);
+}
+
+.helping {
+  margin-left: 1480px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+  color: rgb(255, 255, 255);
+}
+
+.helping:hover {
+  color: url(023e8a);
+}
+
+.about-us {
+  margin-left: -260px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+  color: rgb(255, 255, 255);
+}
+
+.bi-bi-gem {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  color: rgb(6, 80, 190);
+}
+
+#slash1 {
+  width: 45px;
+  height: 45px;
+  color: black;
+}
+
+.footh {
+  margin-top: 400px;
+}
